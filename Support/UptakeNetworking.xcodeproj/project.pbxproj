@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10221501F225FC200E40924 /* HTTPHeaderFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102214E1F225FBD00E40924 /* HTTPHeaderFieldTests.swift */; };
+		C10221531F2263F100E40924 /* HTTPMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10221511F2263B400E40924 /* HTTPMethodTests.swift */; };
+		C10F64881EE7377600AF9D04 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10F64871EE7377600AF9D04 /* HTTPStatusCode.swift */; };
+		C10F64B61EE7531900AF9D04 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10F64B51EE7531900AF9D04 /* Types.swift */; };
+		C11712A21ECE149600B2D31E /* UptakeNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11712981ECE149600B2D31E /* UptakeNetworking.framework */; };
+		C11712A71ECE149600B2D31E /* HostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11712A61ECE149600B2D31E /* HostTests.swift */; };
+		C11712B41ECE15DE00B2D31E /* Tests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C11712B31ECE15DE00B2D31E /* Tests-Info.plist */; };
+		C11712B61ECE161900B2D31E /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11712B51ECE161900B2D31E /* Host.swift */; };
+		C11712B81ECE16E200B2D31E /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11712B71ECE16E200B2D31E /* HTTPHeaderField.swift */; };
+		C1188D881F1E8D390016E41D /* Perfidy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1188D871F1E8D380016E41D /* Perfidy.framework */; };
+		C11CB1C71EE734D300EE0E33 /* UptakeToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11CB1C61EE734D300EE0E33 /* UptakeToolbox.framework */; };
+		C16CF9BC1FA0E67E00D8FFC5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CF9BB1FA0E67E00D8FFC5 /* Request.swift */; };
+		C16CF9BE1FA0EE1B00D8FFC5 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CF9BD1FA0EE1B00D8FFC5 /* Errors.swift */; };
+		C19F92691EF06A1B0020C171 /* HTTPStatusCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F92671EF06A140020C171 /* HTTPStatusCodeTests.swift */; };
+		C1B7FE051F1E9D0800305EE5 /* GetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B7FE031F1E9D0400305EE5 /* GetTests.swift */; };
+		C1B7FE081F1FF58900305EE5 /* PostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B7FE061F1FF57000305EE5 /* PostTests.swift */; };
+		C1B7FE0B1F1FFCCC00305EE5 /* PutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B7FE091F1FFC1C00305EE5 /* PutTests.swift */; };
+		C1B7FE0E1F1FFCE700305EE5 /* DeleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B7FE0C1F1FFCDE00305EE5 /* DeleteTests.swift */; };
+		C1C02F9B1EE89B0500C8668B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C02F9A1EE89B0500C8668B /* HTTPMethod.swift */; };
+		C1C02F9D1EE89C1F00C8668B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C02F9C1EE89C1F00C8668B /* Endpoint.swift */; };
+		C1DB01D91EF468BC0056893C /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB01D81EF468BC0056893C /* Logging.swift */; };
+		C1DD54CD1EE857B800B4D8DF /* Medea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1DD54CC1EE857B800B4D8DF /* Medea.framework */; };
+		C1E3F77A1FA10F92002544D0 /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3F7781FA10F3C002544D0 /* EndpointTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C11712A31ECE149600B2D31E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C117128F1ECE149600B2D31E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11712971ECE149600B2D31E;
+			remoteInfo = Upload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C102214E1F225FBD00E40924 /* HTTPHeaderFieldTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderFieldTests.swift; sourceTree = "<group>"; };
+		C10221511F2263B400E40924 /* HTTPMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethodTests.swift; sourceTree = "<group>"; };
+		C10F64871EE7377600AF9D04 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		C10F64B51EE7531900AF9D04 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		C11712981ECE149600B2D31E /* UptakeNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UptakeNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C117129C1ECE149600B2D31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11712A11ECE149600B2D31E /* UptakeNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UptakeNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11712A61ECE149600B2D31E /* HostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostTests.swift; sourceTree = "<group>"; };
+		C11712B31ECE15DE00B2D31E /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		C11712B51ECE161900B2D31E /* Host.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		C11712B71ECE16E200B2D31E /* HTTPHeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
+		C1188D851F1E6AC60016E41D /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile.private; path = ../Cartfile.private; sourceTree = "<group>"; };
+		C1188D871F1E8D380016E41D /* Perfidy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Perfidy.framework; path = ../Carthage/Build/iOS/Perfidy.framework; sourceTree = "<group>"; };
+		C11CB1C61EE734D300EE0E33 /* UptakeToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UptakeToolbox.framework; path = ../Carthage/Build/iOS/UptakeToolbox.framework; sourceTree = "<group>"; };
+		C16CF9BB1FA0E67E00D8FFC5 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C16CF9BD1FA0EE1B00D8FFC5 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		C185FF6F1ED3275D002AACCD /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Cartfile; path = ../Cartfile; sourceTree = "<group>"; };
+		C185FFA41ED35CEE002AACCD /* Upstart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Upstart.framework; path = ../Carthage/Build/iOS/Upstart.framework; sourceTree = "<group>"; };
+		C19F92671EF06A140020C171 /* HTTPStatusCodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCodeTests.swift; sourceTree = "<group>"; };
+		C1B7FE031F1E9D0400305EE5 /* GetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTests.swift; sourceTree = "<group>"; };
+		C1B7FE061F1FF57000305EE5 /* PostTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTests.swift; sourceTree = "<group>"; };
+		C1B7FE091F1FFC1C00305EE5 /* PutTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutTests.swift; sourceTree = "<group>"; };
+		C1B7FE0C1F1FFCDE00305EE5 /* DeleteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteTests.swift; sourceTree = "<group>"; };
+		C1B7FE0F1F20F6F700305EE5 /* .jazzy.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .jazzy.yaml; path = ../.jazzy.yaml; sourceTree = "<group>"; };
+		C1B7FE111F20F71400305EE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C1C02F9A1EE89B0500C8668B /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		C1C02F9C1EE89C1F00C8668B /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		C1DB01D81EF468BC0056893C /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		C1DD54CC1EE857B800B4D8DF /* Medea.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Medea.framework; path = ../Carthage/Build/iOS/Medea.framework; sourceTree = "<group>"; };
+		C1E3F7781FA10F3C002544D0 /* EndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11712941ECE149600B2D31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11CB1C71EE734D300EE0E33 /* UptakeToolbox.framework in Frameworks */,
+				C1DD54CD1EE857B800B4D8DF /* Medea.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C117129E1ECE149600B2D31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11712A21ECE149600B2D31E /* UptakeNetworking.framework in Frameworks */,
+				C1188D881F1E8D390016E41D /* Perfidy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C117128E1ECE149600B2D31E = {
+			isa = PBXGroup;
+			children = (
+				C185FF6F1ED3275D002AACCD /* Cartfile */,
+				C1188D851F1E6AC60016E41D /* Cartfile.private */,
+				C1B7FE111F20F71400305EE5 /* README.md */,
+				C1B7FE0F1F20F6F700305EE5 /* .jazzy.yaml */,
+				C11712B21ECE158700B2D31E /* Sources */,
+				C11712A51ECE149600B2D31E /* Tests */,
+				C117129A1ECE149600B2D31E /* Support */,
+				C11712991ECE149600B2D31E /* Products */,
+				C185FFA31ED35CEE002AACCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C11712991ECE149600B2D31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11712981ECE149600B2D31E /* UptakeNetworking.framework */,
+				C11712A11ECE149600B2D31E /* UptakeNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C117129A1ECE149600B2D31E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C11712B31ECE15DE00B2D31E /* Tests-Info.plist */,
+				C117129C1ECE149600B2D31E /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		C11712A51ECE149600B2D31E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C11712A61ECE149600B2D31E /* HostTests.swift */,
+				C1B7FE031F1E9D0400305EE5 /* GetTests.swift */,
+				C1B7FE061F1FF57000305EE5 /* PostTests.swift */,
+				C1B7FE091F1FFC1C00305EE5 /* PutTests.swift */,
+				C1B7FE0C1F1FFCDE00305EE5 /* DeleteTests.swift */,
+				C1E3F7781FA10F3C002544D0 /* EndpointTests.swift */,
+				C19F92671EF06A140020C171 /* HTTPStatusCodeTests.swift */,
+				C102214E1F225FBD00E40924 /* HTTPHeaderFieldTests.swift */,
+				C10221511F2263B400E40924 /* HTTPMethodTests.swift */,
+			);
+			name = Tests;
+			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		C11712B21ECE158700B2D31E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB01D81EF468BC0056893C /* Logging.swift */,
+				C10F64B51EE7531900AF9D04 /* Types.swift */,
+				C16CF9BD1FA0EE1B00D8FFC5 /* Errors.swift */,
+				C11712B51ECE161900B2D31E /* Host.swift */,
+				C1C02F9C1EE89C1F00C8668B /* Endpoint.swift */,
+				C16CF9BB1FA0E67E00D8FFC5 /* Request.swift */,
+				C10F64871EE7377600AF9D04 /* HTTPStatusCode.swift */,
+				C11712B71ECE16E200B2D31E /* HTTPHeaderField.swift */,
+				C1C02F9A1EE89B0500C8668B /* HTTPMethod.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		C185FFA31ED35CEE002AACCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1188D871F1E8D380016E41D /* Perfidy.framework */,
+				C1DD54CC1EE857B800B4D8DF /* Medea.framework */,
+				C11CB1C61EE734D300EE0E33 /* UptakeToolbox.framework */,
+				C185FFA41ED35CEE002AACCD /* Upstart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C11712951ECE149600B2D31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C11712971ECE149600B2D31E /* UptakeNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11712AC1ECE149600B2D31E /* Build configuration list for PBXNativeTarget "UptakeNetworking" */;
+			buildPhases = (
+				C11712931ECE149600B2D31E /* Sources */,
+				C11712941ECE149600B2D31E /* Frameworks */,
+				C11712951ECE149600B2D31E /* Headers */,
+				C11712961ECE149600B2D31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UptakeNetworking;
+			productName = Upload;
+			productReference = C11712981ECE149600B2D31E /* UptakeNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C11712A01ECE149600B2D31E /* UptakeNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11712AF1ECE149600B2D31E /* Build configuration list for PBXNativeTarget "UptakeNetworkingTests" */;
+			buildPhases = (
+				C117129D1ECE149600B2D31E /* Sources */,
+				C117129E1ECE149600B2D31E /* Frameworks */,
+				C117129F1ECE149600B2D31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11712A41ECE149600B2D31E /* PBXTargetDependency */,
+			);
+			name = UptakeNetworkingTests;
+			productName = UploadTests;
+			productReference = C11712A11ECE149600B2D31E /* UptakeNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C117128F1ECE149600B2D31E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Uptake;
+				TargetAttributes = {
+					C11712971ECE149600B2D31E = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					C11712A01ECE149600B2D31E = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C11712921ECE149600B2D31E /* Build configuration list for PBXProject "UptakeNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C117128E1ECE149600B2D31E;
+			productRefGroup = C11712991ECE149600B2D31E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11712971ECE149600B2D31E /* UptakeNetworking */,
+				C11712A01ECE149600B2D31E /* UptakeNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11712961ECE149600B2D31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11712B41ECE15DE00B2D31E /* Tests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C117129F1ECE149600B2D31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11712931ECE149600B2D31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16CF9BC1FA0E67E00D8FFC5 /* Request.swift in Sources */,
+				C11712B61ECE161900B2D31E /* Host.swift in Sources */,
+				C11712B81ECE16E200B2D31E /* HTTPHeaderField.swift in Sources */,
+				C10F64881EE7377600AF9D04 /* HTTPStatusCode.swift in Sources */,
+				C1C02F9B1EE89B0500C8668B /* HTTPMethod.swift in Sources */,
+				C1C02F9D1EE89C1F00C8668B /* Endpoint.swift in Sources */,
+				C1DB01D91EF468BC0056893C /* Logging.swift in Sources */,
+				C16CF9BE1FA0EE1B00D8FFC5 /* Errors.swift in Sources */,
+				C10F64B61EE7531900AF9D04 /* Types.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C117129D1ECE149600B2D31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B7FE0B1F1FFCCC00305EE5 /* PutTests.swift in Sources */,
+				C19F92691EF06A1B0020C171 /* HTTPStatusCodeTests.swift in Sources */,
+				C1B7FE0E1F1FFCE700305EE5 /* DeleteTests.swift in Sources */,
+				C10221501F225FC200E40924 /* HTTPHeaderFieldTests.swift in Sources */,
+				C1E3F77A1FA10F92002544D0 /* EndpointTests.swift in Sources */,
+				C10221531F2263F100E40924 /* HTTPMethodTests.swift in Sources */,
+				C11712A71ECE149600B2D31E /* HostTests.swift in Sources */,
+				C1B7FE051F1E9D0800305EE5 /* GetTests.swift in Sources */,
+				C1B7FE081F1FF58900305EE5 /* PostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C11712A41ECE149600B2D31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11712971ECE149600B2D31E /* UptakeNetworking */;
+			targetProxy = C11712A31ECE149600B2D31E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C11712AA1ECE149600B2D31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../Carthage/Build/iOS,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C11712AB1ECE149600B2D31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../Carthage/Build/iOS,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C11712AD1ECE149600B2D31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uptake.module.Networking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C11712AE1ECE149600B2D31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uptake.module.Networking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C11712B01ECE149600B2D31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Carthage/Build/iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uptake.module.NetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C11712B11ECE149600B2D31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/../Carthage/Build/iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uptake.module.NetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11712921ECE149600B2D31E /* Build configuration list for PBXProject "UptakeNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11712AA1ECE149600B2D31E /* Debug */,
+				C11712AB1ECE149600B2D31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11712AC1ECE149600B2D31E /* Build configuration list for PBXNativeTarget "UptakeNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11712AD1ECE149600B2D31E /* Debug */,
+				C11712AE1ECE149600B2D31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11712AF1ECE149600B2D31E /* Build configuration list for PBXNativeTarget "UptakeNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11712B01ECE149600B2D31E /* Debug */,
+				C11712B11ECE149600B2D31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C117128F1ECE149600B2D31E /* Project object */;
+}
